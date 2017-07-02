@@ -22,7 +22,7 @@
 
   .home-page {
     overflow: hidden;
-    background-color: #d3d3d3;
+    background-color: #FDF3E7;
     margin-top: 42px; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
   }
@@ -52,11 +52,23 @@
     right:30px;
     left: 30px;
   }
+.medium-image {
+    position: relative;
+    width: 300px;
+    right:30px;
+    left: 30px;
+  }
   .project-page {
     overflow: hidden;
-    background-image: url("http://images.all-free-download.com/images/graphiclarge/shading_background_05_vector_179619.jpg");
+    background-color: #5bc0de;
     width: 100%; /* Full width */
   }
+.project-page img{
+  max-width:100%;
+  margin: 30px;
+	height:auto;
+	display:block;
+}
   .project-page h3{
     color: white;
     text-align: center;
@@ -69,3 +81,75 @@
     height: 650px;
     
   }
+.grid {
+	padding:0;
+	max-width: 90%;
+	list-style: none; 
+	margin-top:20px;
+}
+project-page li {
+	margin:20px;
+  max-width:600px;
+  @media(min-width:1023px) {
+    max-width:420px;
+    }
+}
+  .contact-page{
+    overflow: hidden;
+    background-color:#EFEFEF;
+    width: 100%; /* Full width */
+  }
+.contact-page h3{
+    color: Black;
+    text-align: center;
+    font-size: 40px;
+    font-family: Oswald;
+    padding: 10px;
+  }
+.box-3{
+    width:100%;
+    height: auto;
+  }
+.contact-page input{
+  max-width:100%;
+  margin: 30px;
+	height:auto;
+  	display:block;
+  background: white;
+  }
+.contact-page button{
+  background-color: white;
+}
+.social-page {
+  overflow: hidden;
+    background-color: #EFEFEF;
+    width: 100%; /* Full width */
+}
+.box-4{
+  width:100%;
+    height: 250px;
+}
+.social-page h4 {
+   color: Black;
+    font-size: 40px;
+    font-family: Oswald;
+  margin-left: 10px;
+}
+.social-page button {
+  color: black;
+  padding: 0px;
+  text-align: center; 
+}
+.btn {
+  margin-left: 30px;
+      display: block;
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      border: 1px solid white;
+    }
+.button {
+  display:block;
+  background: gray;
+  margin:2px;
+}
