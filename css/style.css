@@ -146,7 +146,7 @@ project-page li {
       height: 80px;
       width: 80px;
       border-radius: 50%;
-      border: 1px solid white;
+      border: 2px solid white;
     }
 .button {
   display:block;
