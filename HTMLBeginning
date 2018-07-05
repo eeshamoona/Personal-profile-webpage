@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <title>Anna Dowlin</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("http://www.logos.ne.jp/shop/image/blog/29_20141123_1_1.jpg?110643");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: Georgia;
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+    .image-cropper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    }
+
+    img {
+    width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-cropper">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdhMMU87QHgcU8yx7AukkIqtJEc_oxCcqaSQoEQ6O0d6BZGjIt" class="rounded" />
+</div>
+  <p>Hi! I'm Eesha, a Bay Area high school student, aspiring to combine technology and the arts. Sign up for more content!</p>
+  <input type="email" placeholder="Your email">
+  <input type="submit">
+</body>
